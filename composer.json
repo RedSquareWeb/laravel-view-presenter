@@ -1,0 +1,29 @@
+{
+    "name": "redsquareweb/presenter",
+    "description": "Simple view presenters",
+    "keywords": [
+        "presenter",
+        "view",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Bricka",
+            "email": "christian@redsquareweb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "RedSquareWeb\\Presenter": "src/"
+        }
+    }
+}
